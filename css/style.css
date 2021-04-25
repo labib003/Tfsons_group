@@ -1,0 +1,13 @@
+/*--------------Container----------------------------*/
+.container{
+height: 200px;
+	bottom: 0px;
+  background-color:lightblue;
+}
+
+a{
+-webkit-tap-highlight-color: transparent;
+}
+
+
+
