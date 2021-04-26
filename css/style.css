@@ -1,5 +1,6 @@
 body{
-	background-color: #F3F3F3;
+	background-image: url("../img/background/bg.png");
+	bottom: 0px;
 }
 
 a{
@@ -7,4 +8,94 @@ a{
 }
 
 
+/*---------------Header texts and parah---------------*/
+p{
+	text-align: justify;
+	font-size: 20px;
+}
 
+
+h1{
+	font-size: 40px;
+	font-family: Arial;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin: 10px;
+}
+
+
+
+
+/*---------------buttons-----------------*/
+.btn_a a{
+	color: white;
+	text-decoration: none;
+	
+}
+
+
+.btn{
+	background: rgba(33,33,33,1.00);
+	font: Arial;
+	color: white;font-weight: 100;
+	font-size:20px;
+	padding:15px 30px;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	margin-bottom:0;
+	margin:10px;
+	cursor:pointer;
+	transition:color 0.4s linear;
+	position:inherit;
+	z-index:1;
+	-moz-user-select:none;
+	border:0;
+	overflow:hidden;
+	
+}
+
+
+.btn:hover
+{
+	background: #EC2D48;
+}
+
+
+
+
+
+@media only screen and (max-width: 540px) {
+
+	.btn{
+	font-size:15px;
+	padding:10px 20px;
+	display:inline-block;
+	cursor:pointer;
+	margin-bottom:0;
+	margin:0px;
+	
+}
+	
+}
+
+
+
+/*--------------button 2-----------------------*/
+
+
+/*--------------Devider-----------------------*/
+
+.devider{
+	width: 100px;
+	height: 2px;
+	border-top: 2px solid #EC2D48;
+	margin: 0px;
+}
+
+/*--------------sellection-----------------------*/
+
+::selection{
+  color: white;
+  background: #EC2D48;
+}
