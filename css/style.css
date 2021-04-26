@@ -1,8 +1,5 @@
-/*--------------Container----------------------------*/
-.container{
-height: 200px;
-	bottom: 0px;
-  background-color: #F3F3F3;
+body{
+	background-color: #F3F3F3;
 }
 
 a{
