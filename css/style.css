@@ -123,6 +123,9 @@ a{
 	color: #363636;
 	margin: 10px;
 }
+	
+	
+	
 
 p1{
 	font-family: arial;
@@ -137,6 +140,36 @@ h2{
 	font-weight: 400;
 	margin: 3px;
 }
+
+p{
+	text-align: justify;
+	font-size: 20px;
+}
+
+
+
+h1{
+	font-size: 40px;
+	font-family: Arial;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin: 10px;
+}
+
+@media only screen and (max-width: 450px){
+		.service_div{
+			width: 200px;
+			height: 260px;
+		}
+		
+		h1{
+			font-size: 20px;
+		}
+	p{
+		font-size: 15px;
+	}
+	
+	}
 /*--------------button 2-----------------------*/
 .button2{
 	margin: 20px;
@@ -154,20 +187,7 @@ h2{
 }
 
 /*---------------Header texts and parah---------------*/
-p{
-	text-align: justify;
-	font-size: 20px;
-}
 
-
-
-h1{
-	font-size: 40px;
-	font-family: Arial;
-	text-transform: uppercase;
-	font-weight: 400;
-	margin: 10px;
-}
 
 
 
