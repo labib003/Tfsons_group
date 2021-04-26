@@ -6,7 +6,7 @@ body{
 a{
 -webkit-tap-highlight-color: transparent;
 }
-
+/*---------------Header texts and parah---------------*/
 
 
 
@@ -72,6 +72,13 @@ a{
 .devider{
 	width: 100px;
 	height: 2px;
+	border-top: 2px solid #EC2D48;
+	margin: 0px;
+}
+
+.small_devider{
+	width: 300px;
+	height:px;
 	border-top: 2px solid #EC2D48;
 	margin: 0px;
 }
@@ -161,6 +168,7 @@ h1{
 	font-weight: 400;
 	margin: 10px;
 }
+
 
 
 

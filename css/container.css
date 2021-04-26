@@ -27,32 +27,5 @@
 
 
 
-/*--------------footer----------------------------*/
-.footer_container{
-	width: 100%;
-
-	left: 0px;
-	right: 0px;
-	background-color: black;
-	background-position: ;
-	background-size: ;
-	background-image: url("../img/background/bg.png");
-	
-	
-	padding: 20px 20px;
-	
-}
-
-
-@media only screen and (max-width: 1000px) {
-
-	.footer_container{
-	background-color: black;
-	background-position: ;
-		background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url("../img/background/bg.png");
-}
-}
 
 

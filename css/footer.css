@@ -1,0 +1,63 @@
+
+
+/*--------------footer----------------------------*/
+.footer_container{
+	width: 100%;
+	height: 550px;
+	left: 0px;
+	right: 0px;
+	background-color: #1D1D1D;
+	background-position: ;
+	background-size: ;
+	background-image: url("../img/background/.png");
+	
+	
+	padding-top: 30px;
+	
+}
+
+.address{
+	width: 360px;
+	height: 200px;
+	float: left;
+	text-align: left;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 30px;
+	padding-bottom: 0px;
+	color: white;
+}
+
+.all_address_div{
+
+	padding-left: 40px;
+	float: left;
+}
+
+
+.map_iframe{
+	width: 400px;
+	height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------Map @media and address----------------------------*/
+
+@media only screen and (max-width: 1217)
+{
+	
+	
+}
+
+
+
