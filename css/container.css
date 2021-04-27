@@ -1,6 +1,6 @@
 /*--------------Container----------------------------*/
 .container{
-	bottom: 0px;
+	
 	margin-left: 10px;
 	margin-right: 10px;
   	background-color: white;
@@ -13,6 +13,7 @@
 .container{
 	margin-left: 2px;
 	margin-right: 2px;
+	
 }
 }
 
