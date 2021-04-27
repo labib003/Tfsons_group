@@ -102,6 +102,8 @@ a{
 
 /*--------------Service home-----------------------*/
 .service_div{
+	float: left;
+	
 	border-radius: 3px;
 	font-family:Times New Roman;
 	width: 320px;
