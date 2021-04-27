@@ -22,6 +22,7 @@
 
 .sub_container{
 	width: 85%;
+	float: inherit;
 }
 
 @media only screen and (max-width: 400px)

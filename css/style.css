@@ -99,32 +99,6 @@ a{
   background: #EC2D48;
 }
 
-
-/*--------------Service home-----------------------*/
-.service_div{
-	float: left;
-	
-	border-radius: 3px;
-	font-family:Times New Roman;
-	width: 320px;
-	height: 340px;
-	border: 1px solid rgba(115,115,115,0.78);
-	margin: 15px;
-
-	padding-top: 40px;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-.service_inner{
-
-}
-
-.service_div i{
-	font-size: 40px; 
-	color: #363636;
-	margin: 10px;
-}
 	
 	
 	
@@ -194,3 +168,4 @@ h1{
 
 
 
+/*---------------About home---------------*/
