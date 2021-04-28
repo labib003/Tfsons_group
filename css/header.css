@@ -57,7 +57,7 @@
 @media only screen and (max-width: 420px) {
  
 	.logo img{
-		width: 140px;
+		width: 150px;
 		margin-top: 15px;
 	}
 	
@@ -68,7 +68,7 @@
 @media only screen and (max-width: 360px) {
  
 	.logo img{
-		width: 120px;
+		width: 140px;
 		margin-top: 15px;
 	}
 	
@@ -183,7 +183,7 @@
 @media only screen and (max-width: 420px) {
  
 	.top_social i{
-		font-size: 13px;
+		font-size: 14px;
 		margin-right: 5px;
 		margin-top: 8px;
 	}
@@ -195,7 +195,7 @@
 @media only screen and (max-width: 360px) {
  
 	.top_social i{
-		font-size: 10px;
+		font-size: 12px;
 		margin-right: 5px;
 		margin-top: 8px;
 	}

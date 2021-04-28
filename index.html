@@ -7,18 +7,60 @@
     <meta name="description" content="পছন্দ আপনার দায়িত্ব আমাদের">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS here -->
+	<script src="js/animation.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	
+	
+	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/service.css">
 	<link rel="stylesheet" href="css/container.css">
 	<link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="css/banner.css">
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	
+
 </head>
 
 <body>
+	
+	
+	
+	<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
+
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution="page_inbox"
+        page_id="100511098106001">
+      </div>
+	
+	
+	
+	
 	<header class="header_fixed">
 		
 		<div class="Hdesigngreen topcoloralign"></div>
@@ -106,7 +148,41 @@
 	<div align="center" class="container"><br>	
 	<!------------------------banner------------------------->
 	
-	<div class="banner_container"><div class="banner"></div></div><br><br>
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div data-aos="fade-down" id="wowslider-container1">
+	<div class="ws_images"><ul>
+		<li><img src="data1/images/1.png" alt="1" title="1" id="wows1_0"/></li>
+		<li><img src="data1/images/2.png" alt="2" title="2" id="wows1_1"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/3.png" alt="responsive slider" title="3" id="wows1_2"/></a></li>
+		<li><img src="data1/images/4.png" alt="4" title="4" id="wows1_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1"><span><img src="data1/tooltips/1.png" alt="1"/>1</span></a>
+		<a href="#" title="2"><span><img src="data1/tooltips/2.png" alt="2"/>2</span></a>
+		<a href="#" title="3"><span><img src="data1/tooltips/3.png" alt="3"/>3</span></a>
+		<a href="#" title="4"><span><img src="data1/tooltips/4.png" alt="4"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v9.0</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+		<br>
+		
+		
+		
+		
+		
+		<!------------------------detais------------------------->
+		
+		
+		<div data-aos="fade-right" class="details_number">
+			<img draggable="false" src="img/banner/details.png">
+		</div>
+		
+		<br>
+		<br>
+		
 		
 	<!------------------------sub container------------------------->
 	<div align="center" class="sub_container">
@@ -127,87 +203,88 @@
 		
 
 		<div class="new_service_container">
-			<h1>Our Service</h1>
-			<div class="devider"></div>
+			
+			<div data-aos="fade-up" data-aos-duration="1000"><h1>Our Service</h1>
+			<div class="devider"></div></div>
 			
 			<div class="service_div_container">
 			
-			<div class="new_sevice_div">
+			<div class="new_sevice_div" data-aos="flip-down" >
 				<div class="service_inner">
 					<i style="font-size: 50px; margin-bottom: 3px;" class="fa fa-bed"></i>
-					<h2>Tfsons Furniture</h2>
+					<h2>TFsons Furniture</h2>
 						<p class="service_p">Its have manufacturer factory, Branches. Its take order for requirement production, Distribution,  Direct sell & wholesell</p>
-					<div class="button2">Read More <i class="fa fa-arrow-circle-o-right"></i></div>
+					<div class="button2">Click to see <i class="fa fa-arrow-circle-o-right"></i></div>
 				</div>
 			</div>
 			
 			
-			<div class="new_sevice_div">
+			<div class="new_sevice_div" data-aos="flip-down" >
 				<div class="service_inner">
 					<i style="font-size: 50px; margin-bottom: 3px;" class="fa fa-home"></i>
 					<h2>TFsons Agro farm</h2>
-						<p class="service_p">Agro farming-Production, Distribution & sell.</p><br>
-					<div class="button2">Read More <i class="fa fa-arrow-circle-o-right"></i></div>
+						<p class="service_p">Agro farming-Production, Distribution & sell.</p>
+					<div class="button2">Click to see <i class="fa fa-arrow-circle-o-right"></i></div>
 				</div>
 			</div>
 			
 			
-			<div class="new_sevice_div">
+			<div class="new_sevice_div" data-aos="flip-down" >
 				<div class="service_inner">
 					<i style="font-size: 50px; margin-bottom: 3px;" class="fa fa-tree"></i>
 					<h2>TFsons Wood</h2>
-						<p class="service_p">Buy tree, Make it wood, And sell it.</p><br><br>
-					<div class="button2">Read More <i class="fa fa-arrow-circle-o-right"></i></div>
+						<p class="service_p">Buy tree, Make it wood, And sell it.</p>
+					<div class="button2">Click to see <i class="fa fa-arrow-circle-o-right"></i></div>
 				</div>
 			</div>
 					
 			
-			<div class="new_sevice_div">
+			<div class="new_sevice_div" data-aos="flip-down" >
 				<div class="service_inner">
 					<i style="font-size: 50px; margin-bottom: 3px;" class="fa fa-plane"></i>
 					<h2>TFsons Export & Import</h2>
 						<p class="service_p">Its import & export own product, And work as a third party for import & Export</p>
-					<div class="button2">Read More <i class="fa fa-arrow-circle-o-right"></i></div>
+					<div class="button2">Click to see <i class="fa fa-arrow-circle-o-right"></i></div>
 				</div>
 			</div>
 					
 			
-			<div class="new_sevice_div">
+			<div class="new_sevice_div" data-aos="flip-down" >
 				<div class="service_inner">
 					<i style="font-size: 50px; margin-bottom: 3px;" class="fa fa-shopping-cart"></i>
 					<h2>eTFsons.com</h2>
 						<p class="service_p">eTFsons is a Multy vendor e-commerce where people can buy things.</p>
-					<div class="button2">Read More <i class="fa fa-arrow-circle-o-right"></i></div>
+					<div class="button2">Click to see <i class="fa fa-arrow-circle-o-right"></i></div>
 				</div>
 			</div>
 					
 			
-			<div class="new_sevice_div">
+			<div class="new_sevice_div" data-aos="flip-down" >
 				<div class="service_inner">
 					<i style="font-size: 50px; margin-bottom: 3px;" class="fa fa-desktop"></i>
 					<h2>TFsons Technology</h2>
-						<p class="service_p">Wholesale, Distribution & Retail.</p><br>
-					<div class="button2">Read More <i class="fa fa-arrow-circle-o-right"></i></div>
+						<p class="service_p">Wholesale, Distribution & Retail.</p>
+					<div class="button2">Click to see <i class="fa fa-arrow-circle-o-right"></i></div>
 				</div>
 			</div>
 					
 			
-			<div class="new_sevice_div">
+			<div class="new_sevice_div" data-aos="flip-down" >
 				<div class="service_inner">
 					<i style="font-size: 50px; margin-bottom: 3px;" class="fa fa-medkit"></i>
 					<h2>Doctor's Care</h2>
-						<p class="service_p">Its medical coaching center</p><br>
-					<div class="button2">Read More <i class="fa fa-arrow-circle-o-right"></i></div>
+						<p class="service_p">Its medical coaching center</p>
+					<div class="button2">Click to see <i class="fa fa-arrow-circle-o-right"></i></div>
 				</div>
 			</div>
 					
 			
-			<div class="new_sevice_div">
+			<div class="new_sevice_div" data-aos="flip-down" >
 				<div class="service_inner">
 					<i style="font-size: 50px; margin-bottom: 3px;" class="fa fa-shopping-bag"></i>
 					<h2>TFsons Supershop</h2>
-						<p class="service_p"></p><br><br>
-					<div class="button2">Read More <i class="fa fa-arrow-circle-o-right"></i></div>
+						<p class="service_p"></p>
+					<div class="button2">Click to see <i class="fa fa-arrow-circle-o-right"></i></div>
 				</div>
 			</div>
 		
@@ -254,7 +331,7 @@
 	<div class="sub_container">
 		
 		
-			<div align="center" class="about_home">
+			<div data-aos="zoom-out-down"  align="center" class="about_home">
 		
 		<h1 align="center"> About us </h1>
 		<div class="devider"></div>
@@ -278,10 +355,10 @@
 		
 		
 		
-		<div align="center" class="all_address all_address_div">
+		<div  align="center" class="all_address all_address_div">
 			
 			
-		<div class="address">
+		<div  class="address">
 		   <strong> Corporate Office </strong>
 			<br><br><div class="small_devider"></div><br>
 			
@@ -372,6 +449,9 @@
 	
 	
 	
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+  AOS.init();
+</script>
 </body>
-</html>
+</html>>>>>>
