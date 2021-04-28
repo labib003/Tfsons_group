@@ -5,8 +5,13 @@ body{
 	bottom: 0px;
 }
 
+.read a:link, a:visited{
+	color: #EC2D48;
+}
+
 a{
 -webkit-tap-highlight-color: transparent;
+	text-decoration: none;
 }
 /*---------------Header texts and parah---------------*/
 
@@ -92,6 +97,14 @@ a{
 	margin-bottom: 30px;
 }
 
+.devider_silver2{
+	width: 100%;
+	height: 1px;
+	border-top: 1px solid rgba(9,74,96,0.26);
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+
 
 .devider_white{
 	width: 100%;
@@ -127,8 +140,8 @@ h2{
 }
 
 p{
-	text-align: justify;
-	font-size: 20px;
+	text-align: center;
+	font-size: 20px;color: rgba(103,103,103,1.00);
 }
 
 
@@ -148,13 +161,19 @@ h1{
 		}
 		
 		h1{
-			font-size: 20px;
+			font-size: 17px;
 		}
 	p{
 		font-size: 15px;
 	}
 	
 	}
+
+@media only screen and (min-width: 450px){
+	p{
+		text-align: center;
+	}
+}
 /*--------------button 2-----------------------*/
 .button2{
 	margin: 20px;
@@ -177,4 +196,88 @@ h1{
 
 
 
-/*---------------About home---------------*/
+/*---------------Contact---------------*/
+
+.contact_add1{
+	text-align: left;
+	font-size: 18px;
+}
+
+.social_conatact{
+	text-decoration: none;
+	color: black;
+}
+.social_conatact i{
+	margin-top: 5px;
+	margin: 0px 10px;
+	font-size: 25px; 
+	color: #787878;
+}
+
+.contact_add1 strong{
+	margin-bottom: 34px;
+	font-size: 20px;
+	color: 0
+}
+@media only screen and (max-width: 550px){
+	
+	
+	.contact_add1{
+	text-align: left;
+	font-size: 12px;
+}
+
+
+.contact_add1 strong{
+	margin-bottom: 34px;
+	font-size: 15px;
+	color: 0
+}
+}
+
+
+
+
+
+
+
+
+/*---------------admins---------------*/
+.pc_admin{
+	width: 450px;
+}
+.admin{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.phone_admin{
+	
+}
+
+@media only screen and (max-width: 600px){
+	
+	.pc_admin{
+	width: 300px;
+}
+}
+
+@media only screen and (max-width: 350px){
+	
+	.pc_admin{
+	width: 270px;
+}
+}
+
+@media only screen and (max-width: 320px){
+	
+	.pc_admin{
+	width: 220px;
+}
+}
+
+
+
+
+
+
+

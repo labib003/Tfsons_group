@@ -230,7 +230,9 @@
 
 
 @media only screen and (max-width: 280px){
-	
+	.phone_service_container{
+		height: 530px;
+		}
 	.phone_service_div_container{
 		margin-left: 10px;
 	}
