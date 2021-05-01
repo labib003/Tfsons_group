@@ -5,6 +5,7 @@ body{
 	bottom: 0px;
 }
 
+
 .read a:link, a:visited{
 	color: #EC2D48;
 }
@@ -149,7 +150,7 @@ p{
 h1{
 	font-size: 40px;
 	font-family: Arial;
-	text-transform: uppercase;
+	text-transform: ;
 	font-weight: 400;
 	margin: 10px;
 }
@@ -166,6 +167,26 @@ h1{
 	p{
 		font-size: 15px;
 	}
+	
+	}
+
+h4{
+	font-size: 40px;
+	font-family: Arial;
+	text-transform: ;
+	font-weight: 400;
+	margin: 10px;
+}
+
+@media only screen and (max-width: 450px){
+		.service_div{
+			width: 200px;
+			height: 260px;
+		}
+		
+		h4{
+			font-size: 17px;
+		}
 	
 	}
 
@@ -309,35 +330,41 @@ h1{
 .product img{
 	width: 100%;
 	z-index: -2;
+	box-shadow: -1px -4px 3px -2px rgba(0,0,0,0.45);
+
+}
+
+.product img:hover{
+	box-shadow: -1px -4px 3px -3px rgba(0,0,0,0.45);
 }
 
 
 h3{
 	z-index: -1;
-	
-	font-size: 15px;
+	box-shadow: -1px 4px 3px -2px rgba(0,0,0,0.45);
+	font-size: 18px;
+	width: 100%;
 	font-family: ;
 	text-transform: uppercase;
 	font-weight: 400;
-	margin-top: -3px;
-	
+	margin-top: -4px;
+	margin-bottom: ;
 	padding: ;
 	color: white;
 	background-color: #EC2D48;
 }
 
 h3:hover{
-	background-color: #EF576D;
+	background-color: #333333;
+	box-shadow: 1px 4px 3px -2px rgba(0,0,0,0.45);
 }
 
 .product p{font-size: 10;}
 
 @media only screen and (max-width: 450px){
-h3{font-size: 12px;}
+h3{font-size: 15px;}
 p{font-size: 6px;}
 }
-
-
 
 
 
