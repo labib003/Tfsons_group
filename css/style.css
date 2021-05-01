@@ -280,4 +280,73 @@ h1{
 
 
 
+/*---------------Services---------------*/
+.back_service{
+	
+	
+	font-size: 12px;
+	padding: 7px 10px;
+	background-color: #ED4058;
+	color: white;
+	cursor: pointer;
+	box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+	
+	-webkit-tap-highlight-color: transparent;
+}
+
+.back_service:hover{
+	background-color: #EC2D48;
+	box-shadow: 0 2px 2px -1px rgba(0,0,0,0.48);
+}
+
+
+
+
+
+ 
+/*---------------Services product---------------*/
+
+.product img{
+	width: 100%;
+	z-index: -2;
+}
+
+
+h3{
+	z-index: -1;
+	
+	font-size: 15px;
+	font-family: ;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-top: -3px;
+	
+	padding: ;
+	color: white;
+	background-color: #EC2D48;
+}
+
+h3:hover{
+	background-color: #EF576D;
+}
+
+.product p{font-size: 10;}
+
+@media only screen and (max-width: 450px){
+h3{font-size: 12px;}
+p{font-size: 6px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
