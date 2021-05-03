@@ -195,6 +195,8 @@ h4{
 		text-align: center;
 	}
 }
+
+
 /*--------------button 2-----------------------*/
 .button2{
 	margin: 20px;
@@ -325,8 +327,6 @@ h4{
 
 
  
-/*---------------Services product---------------*/
-
 .product img{
 	width: 100%;
 	z-index: -2;
@@ -363,7 +363,7 @@ h3:hover{
 
 @media only screen and (max-width: 450px){
 h3{font-size: 15px;}
-p{font-size: 6px;}
+p{font-size: px;}
 }
 
 
@@ -375,5 +375,30 @@ p{font-size: 6px;}
 
 
 
+
+/*---------------PARAH---------------*/
+
+.parah1{
+	text-align: justify;
+	width: 600px;
+}
+
+.about p{
+	font-family: arial;
+	text-align: justify;
+	font-size: 16px;
+	color: rgba(103,103,103,1.00);
+	margin-top: 0px;
+}
+@media only screen and (max-width: 700px){
+	.parah1{
+		width: 100%;
+	}
+	
+	.about p{
+	font-family: arial;
+	text-align: justify;
+	font-size: 14px;
+}
 
 
