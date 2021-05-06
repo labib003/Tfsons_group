@@ -165,14 +165,14 @@
 
 @media only screen and (max-width: 1315px){
 	.service_div_container{
-		height: 1200px;
+		height: 1500px;
 		margin-left: 100px;
 	}
 }
 
 @media only screen and (max-width: 1150px){
 	.service_div_container{
-		height: 1200px;
+		
 		margin-left: 40px;
 	}
 }
@@ -197,13 +197,13 @@
 
 @media only screen and (max-width: 720px){
 	.phone_service_container{
-		height: 600px;
+		height: 550px;
 	}
 }
 	
 @media only screen and (max-width: 576px){
 	.phone_service_container{
-		height: 500px;
+		height: 680px;
 	}
 }
 
@@ -247,7 +247,7 @@
 
 @media only screen and (max-width: 280px){
 	.phone_service_container{
-		
+		height: 680px;
 		}
 	.phone_service_div_container{
 		margin-left: 10px;
