@@ -87,15 +87,15 @@
 }
 
 .phone_service_container img{
-	width: 35px;
+	width: 50px;
 }
 .phone_sevice_div{
 	width: 100px;
-	height: 100px;
+	height: 115px;
 	
 
 	
-	margin: 16px 8px;
+	margin: 12px 8px;
 	
 	background-color: white;
 	border: 1px solid rgba(63,63,63,0.76);
@@ -210,7 +210,7 @@
 
 @media only screen and (max-width: 440px){
 	.phone_service_container{
-		height: 700px;
+		height: 800px;
 		}
 	
 	.phone_service_div_container{
@@ -252,10 +252,18 @@
 	.phone_service_div_container{
 		margin-left: 10px;
 	}
+	.phone_sevice_div
+	{
+		height: 90px;
+		width: 90px;
+	}
 	
-	.phone_sevice_div{
-	width: 80px;
-	height: 80px;
+	
+	.phone_sevice_div img
+	{
+		width: 30px;
+	}
+	
 }
 	
 	.phone_service_div_container h2{font-size: 10px;}
